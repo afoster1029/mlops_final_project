@@ -74,7 +74,7 @@ The pipeline followed a systematic workflow:
 2. Baseline model creation using AutoML.
 3. Model improvement via feature engineering and hyperparameter tuning.
 4. Model evaluation and deployment.
-5. Continuous monitoring using EvidentlyAI (Slide 10).
+5. Continuous monitoring using EvidentlyAI.
 
 ![Pipeline Overview](results_images/pipeline_overview.png)
 
@@ -83,7 +83,7 @@ The pipeline followed a systematic workflow:
 ### Algorithm Selection
 Databricks AutoML identified XGBoost as the ideal algorithm based on RMSE and MAPE metrics:
 - Validation RMSE: $41,983
-- Validation MAPE: 16.5% (Slide 12).
+- Validation MAPE: 16.5%.
 
 
 ![Model Metrics](results_images/model_metrics.png)
@@ -93,7 +93,7 @@ Databricks AutoML identified XGBoost as the ideal algorithm based on RMSE and MA
 ### Model Improvement
 Feature engineering introduced new predictors like "rooms per household" and "population per household." Hyperparameter tuning using HyperOpt reduced:
 - Validation RMSE to $38,939
-- Validation MAPE to 15.0% (Slide 14).
+- Validation MAPE to 15.0%.
 
 ---
 
