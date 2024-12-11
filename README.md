@@ -93,7 +93,7 @@ Databricks AutoML identified XGBoost as the ideal algorithm based on RMSE and MA
 ### Model Improvement
 Feature engineering introduced new predictors like "rooms per household" and "population per household." Hyperparameter tuning using HyperOpt reduced:
 - Validation RMSE to $38,939
-- Validation MAPE to 15.0%.
+
 
 ---
 
@@ -110,6 +110,12 @@ The model was deployed for batch inference, achieving consistent predictions for
 
 ### SHAP Analysis
 SHAP analysis highlighted latitude and longitude as critical features, with custom-engineered features ranking among the top predictors.
+
+* Geographic features are among the most important (latitude = 1st, longitude = 3rd)
+* Three of our custom features were in the top 7
+Population_per_household:
+* Districts with fewer people per house generally have a higher median house value
+
 
 ![SHAP Analysis](results_images/shapely.png)
 
