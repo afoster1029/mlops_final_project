@@ -1,5 +1,9 @@
 # mlops_final_project
 
+### Authors: Alex Foster, Natalie Kim, Mathew Spencer, Zoey Zhou
+
+
+
 ## Setup
 
 This repository uses Azure Databricks and Apache Airflow to orchestrate data pipelines. Orchestration in Databricks can be done programmatically or through the user interface. For this project, we utilized the in-console approach for orchestration.
