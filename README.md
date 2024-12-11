@@ -124,7 +124,7 @@ Population_per_household:
 ## Predictions
 The predictions closely aligned with the actual target values, demonstrating high model accuracy.  
 
-![Predictions](predictions.png)
+![Predictions](results_images/predictions.png)
 
 ---
 
